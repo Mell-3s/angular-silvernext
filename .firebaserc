@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "angular-silvernext-f1301": {
+      "hosting": {
+        "angular-silvernext": [
+          "angular-silvernext-f1301"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "angular-silvernext-f1301"
+  }
+}

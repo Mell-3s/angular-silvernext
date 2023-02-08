@@ -104,6 +104,16 @@
           "options": {
             "lintFilePatterns": ["src/**/*.ts", "src/**/*.html"]
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "angular-silvernext:build:production",
+            "firebaseProject": "angular-silvernext-f1301",
+            "firebaseHostingSite": "angular-silvernext-f1301"
+          }
         }
       }
     }

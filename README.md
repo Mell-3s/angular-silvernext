@@ -1,27 +1,27 @@
 # AngularSilvernext
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.4.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.4 and [Node](https://nodejs.org) version 18.14.0.
 
-## Development server
+The project is an Angular biolertemplate with some setup and features that are usefull in all new projects.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Commands
 
-## Code scaffolding
+### Development server
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run `npm run start` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Build
+### Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Run `nom run build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+### Lint
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run `npm run lint` to run the linter through the project.
 
-## Running end-to-end tests
+### Format
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Run `npm run format` to format the code in the project.
 
-## Further help
+## Commit
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+The project is using Commitizen to have clean commits. Stag your changes like normal and run `git gz` to make a commit.
